@@ -4,14 +4,16 @@ const Footer = () => {
   return (
     <>
       <div className="bg-gray-50 h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-20">
-        <div>
+        <div className="flex-col">
+        <div>  
           <p>Austin,Texas</p>
         </div>
         <div>
-          <p1>7020 Easy Wind</p1>
+          <p>7020 Easy Wind</p>
         </div>
         <div>
-          <p2>Ausitn,TX 78752</p2>
+          <p>Ausitn,TX 78752</p>
+        </div>
         </div>
 
         <div>
@@ -107,11 +109,11 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex  items-start justify-between text-end p-5 bg-green-50">
-        <p>Test</p>
-        <div className="flex bg-red-300 gap-4">
-          <p>Test</p>
-          <p>Test</p>
+      <div className="flex  items-start justify-between text-end  bg-green-50 pb-10">
+        <p>Copyright @2023 Dental.com</p>
+        <div className="flex gap-4">
+          <p>Change log</p>
+          <p>License</p>
         </div>
       </div>
     </>

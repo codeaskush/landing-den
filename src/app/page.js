@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import MainHeroView from "@/components/main-hero";
 import NavbarTop from "@/components/top-navbar";
 import TopSnackBar from "@/components/top-snack";
@@ -10,6 +11,8 @@ export default function Home() {
 
       <NavbarTop />
       <MainHeroView />
+
+      <Footer/>
     </div>
   );
 }

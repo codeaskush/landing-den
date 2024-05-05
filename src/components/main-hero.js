@@ -3,7 +3,7 @@ import { UsersIcon, HomeIcon } from "@heroicons/react/outline";
 
 const MainHeroView = () => {
   return (
-    <div className=" flex  w-full h-[70vh] ">
+    <div className=" flex  w-full h-[70vh]">
       <div className="flex w-1/2 bg-transparent-200 px-20 py-20 ">
         <div className="flex-col items-center justify-between bg-transparent-100">
           <div className="text-7xl ">
@@ -36,7 +36,7 @@ const MainHeroView = () => {
           </div>
         </div>
       </div>
-      <div className="flex w-1/2 ">
+      <div className="flex w-1/2 h-full bg-green-300">
         <div className="relative">
           <div className="absolute bottom-12 right-6 z-10">
             <div className="bg-white px-6 py-2 rounded-lg">
@@ -62,10 +62,9 @@ const MainHeroView = () => {
           </div>
 
           <img
-            className="z-20"
+            className="z-20 h-full object-fill"
             src="images/hero-1.jpg"
             alt="Description"
-            class="w-full h-auto"
           />
         </div>
       </div>

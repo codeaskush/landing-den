@@ -36,7 +36,7 @@ const MainHeroView = () => {
           </div>
         </div>
       </div>
-      <div className="flex w-1/2 h-full bg-green-300">
+      <div className="flex w-1/2 h-full ">
         <div className="relative">
           <div className="absolute bottom-12 right-6 z-10">
             <div className="bg-white px-6 py-2 rounded-lg">

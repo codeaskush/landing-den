@@ -5,6 +5,7 @@ import TestimonialView from "@/components/testimonial";
 import NavbarTop from "@/components/top-navbar";
 import TopSnackBar from "@/components/top-snack";
 import OurTeamView from "@/components/our-team/team-view";
+import SimpleFooter from "@/components/footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <ServiceDisplayView />
       <TestimonialView />
       <OurTeamView />
+      <SimpleFooter />
     </div>
   );
 }

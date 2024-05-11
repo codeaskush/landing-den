@@ -26,11 +26,11 @@ const MainHeroView = () => {
           </div>
           <div className="flex gap-3 py-2">
             <div className="flex h-8 py-5 items-center">
-              <div class="w-3 h-3 flex items-center justify-center rounded-full border-4 border-green-500 bg-transparent" />
+              <div className="w-3 h-3 flex items-center justify-center rounded-full border-4 border-green-500 bg-transparent" />
               <p className="font-light ml-2 text-xl">Free Appointment</p>
             </div>
             <div className="flex h-8 py-5 items-center">
-              <div class="w-3 h-3 flex items-center justify-center rounded-full border-4 border-green-500 bg-transparent" />
+              <div className="w-3 h-3 flex items-center justify-center rounded-full border-4 border-green-500 bg-transparent" />
               <p className="font-light ml-2 text-xl">Membership Discount</p>
             </div>
           </div>
